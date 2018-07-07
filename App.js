@@ -13,8 +13,7 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.paragraph}>
-          Change code in the editor and watch it change on your phone!
-          Save to get a shareable url.
+          hello kawon 
         </Text>
         <Card title="Local Modules">
           <AssetExample />
@@ -27,14 +26,14 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
+    alignItems: 'right',
     justifyContent: 'center',
     paddingTop: Constants.statusBarHeight,
     backgroundColor: '#ecf0f1',
   },
   paragraph: {
     margin: 24,
-    fontSize: 18,
+    fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
     color: '#34495e',
